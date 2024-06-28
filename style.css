@@ -1,7 +1,9 @@
 body{
     text-align: center;
+    /* color: antiquewhite; */
     background-color: antiquewhite;
-    
+    /* background: rgb(141,0,255);
+background: linear-gradient(90deg, rgba(141,0,255,1) 0%, rgba(78,9,121,1) 51%, rgba(0,212,255,1) 100%); */
 }
 
 .column {
@@ -25,7 +27,5 @@ body{
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
-        
-        
     }    
 }
