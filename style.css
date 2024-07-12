@@ -1,21 +1,34 @@
 body{
     text-align: center;
-    /* color: antiquewhite; */
-    background-color: antiquewhite;
-    /* background: rgb(141,0,255);
-background: linear-gradient(90deg, rgba(141,0,255,1) 0%, rgba(78,9,121,1) 51%, rgba(0,212,255,1) 100%); */
+    background-color: rgba(86, 39, 129) ;
+    
+    color: white;
 }
 
-.column {
+p {
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+h3 {
+    color: rgb(115, 178, 203);
+
+}
+
+
+
+column {
     float: left;
     width: 25%;
+    text-align: center;
+    
 }
 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 @media screen and (max-width:900px) {
     .column {
