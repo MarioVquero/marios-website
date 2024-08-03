@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgba(86, 39, 129) ;
+    background-color: rgba(40, 39, 129, 0.831) ;
     
     color: white;
 }
@@ -16,7 +16,7 @@ img {
 }
 
 h3 {
-    color: rgb(115, 178, 203);
+    color: rgb(0, 0, 0);
 
 }
 
