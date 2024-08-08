@@ -3,17 +3,39 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
-        <title>Hello, world!</title>
+        <title>Mario PorfolioSite</title>
+        <script src="https://kit.fontawesome.com/84bd6c45d0.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <main>
-            <div>
+            <div class="head">
                 <h1>Hello my name is Mario</h1>
-                <p>Welcome to my website this will be a place for me to show off my work and anything interesting</p>
+                <p>
+                    Welcome to my website this will be a place for me to show off my work and anything interesting
+                    This is hosted via Github so I don't have that much space to work with but I work with what I got
+                    if theres any tips or ideas you wanna give me feel free to contact me
+                </p>
                 
             </div>
-            <table>
+            <section class="tabs">
+                <div class="container">
+                    <div id="tab-1" class="tab-item tab-border">
+                        <i class="fa fa-address-card fa-5x"></i>
+                        <p>Projects</p>
+                    </div>
+                    <div id="tab-2" class="tab-item">
+                        <i class="fa fa-envelope fa-5x"></i>
+                        <p>Contact Me</p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="tab-Content">
+                <div class="container">
+                    <div id="tab-1-content" class="tab-content-item show">
+                        <table>
                 <tr>
                     <h2>
                         Software Engineering / Full stack
@@ -61,8 +83,8 @@
                         </p>
                     </td>
                 </tr>
-            </table>
-            <table>
+                        </table>
+                        <table>
                 <tr>
                     <h2>Game Development and others</h2>
                     
@@ -100,8 +122,23 @@
                         </p>
                     </td>
                 </tr>
-            </table>
+                        </table>
+                    </div>
+
+                    <div id="tab-2-content" class="tab-content-item">
+                        <p class="form-text">
+                            To Contact Me Fill out the form bellow or Email me directly at mariovquero@gmail.com
+                        </p>
+                        <form method="post" action="https://getform.io/f/d4f19e92-7957-4b59-9626-4f2770fe572b" class="form-content">
+                            <input class="form-inputs" type="text" placeholder="name" name="name">
+                            <input class="form-inputs" type="email"  placeholder="Email" name="Email">
+                            <textarea class="form-inputs" name="message" name="message" rows="10" placeholder="message"></textarea>
+                            <button class="form-button">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </main>
-        
+        <script src="script.js"></script>
     </body>
     </html>

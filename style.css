@@ -2,7 +2,7 @@ body{
     text-align: center;
     background-color: rgba(40, 39, 129, 0.831) ;
     
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p {
@@ -19,6 +19,90 @@ h3 {
     color: rgb(0, 0, 0);
 
 }
+
+/* HEAD */
+
+.head {
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    gap: 1rem;
+}
+
+
+/* TABS */
+
+.tabs {
+
+    padding-top: 1rem;
+    border-bottom: 3px solid #000;
+}
+
+.tabs .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabs p {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.tabs .container > div {
+    padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.tab-border {
+    border-bottom: #fff 4px solid;
+}
+
+.tab-content-item .form-text {
+    font-size: large;
+    margin-top: 3rem;
+}
+.tab-content-item .form-inputs {
+    font-size: large;
+}
+
+.tab-content-item .form-button {
+    font-size: medium;
+}
+
+
+.tab-content-item .form-button:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.tab-content-item .form-content  {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1,64rem);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+#tab-1-content,
+#tab-2-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
 
 
 
