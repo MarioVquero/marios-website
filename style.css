@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgba(40, 39, 129, 0.831) ;
+    background-color: burlywood;
     
     color: rgb(255, 255, 255);
 }
@@ -85,12 +85,13 @@ h3 {
 .tab-content-item .form-content  {
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(1,64rem);
+    grid-template-columns: repeat(1,32rem);
     gap: 1rem;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
 
 
 
@@ -114,15 +115,4 @@ column {
 }
 
 
-@media screen and (max-width:900px) {
-    .column {
-        width: 50%;
-    }
-    
-}
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }    
-}
