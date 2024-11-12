@@ -92,7 +92,15 @@ h3 {
     text-align: center;
 }
 
-
+.tab-content-item .Socials-Item {
+    margin-top: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+    gap: 1rem;
+    justify-content: center;
+    
+}
 
 
 #tab-1-content,
