@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     text-align: center;
     background-color: burlywood;
@@ -11,8 +15,8 @@ p {
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
 }
 
 h3 {
@@ -29,21 +33,26 @@ h3 {
 }
 
 
+
 /* TABS */
 
 .tabs {
 
     padding-top: 1rem;
-    border-bottom: 3px solid #000;
 }
 
 .tabs .container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+
+
 }
 
 .tabs p {
@@ -63,6 +72,20 @@ h3 {
 .tab-border {
     border-bottom: #fff 4px solid;
 }
+
+/* .tab-content-item {
+    border-bottom: black 4px solid;
+} */
+
+.tab-content-item .SWE-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.tab-content-item .GD-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 
 .tab-content-item .form-text {
     font-size: large;
@@ -92,14 +115,20 @@ h3 {
     text-align: center;
 }
 
+
+.tab-content-item .socials-text {
+    font-size: large;
+    margin-top: 3rem;
+}
 .tab-content-item .Socials-Item {
-    margin-top: 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    cursor: pointer;
-    gap: 1rem;
-    justify-content: center;
     
+    display: grid;
+    cursor: pointer;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
 }
 
 
